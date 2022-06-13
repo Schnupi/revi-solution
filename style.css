@@ -23,6 +23,30 @@
 body{
     margin:0;
 }
+/*Scroll smooth*/
+html {
+	scroll-behavior: smooth;
+}
+
+.scroller {
+    height:100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    overflow-x:hidden;
+
+}
+
+.scroller section {
+    scroll-snap-align: start;
+}
+
+
+
+.section{
+    height: 100vh;
+}
+
+
 
 /*Screen 1 - Menu*/
 .btn-contact{
@@ -62,7 +86,14 @@ body{
     margin-right:30px;
     cursor: pointer;
 }
+.submenu a {
+    text-decoration: none;
+    color:#000000;
+}
 
+.btn-contact a{
+    color:#FFF !important;
+}
 /*Screen 1 - Visuel*/
 
 .visuel-intro{
