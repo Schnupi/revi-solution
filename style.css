@@ -1,0 +1,442 @@
+/*All fonts*/
+@font-face {
+    font-family: "Source Sans Pro Semi Bold";
+    src: url("font/SourceSansPro-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Source Sans Pro Black";
+    src: url("font/SourceSansPro-Black.ttf");
+}
+@font-face {
+    font-family: "Source Sans Pro Regular";
+    src: url("font/SourceSansPro-Regular.ttf");
+}
+@font-face {
+    font-family: "Source Sans Pro Bold";
+    src: url("font/SourceSansPro-Bold.ttf");
+}
+@font-face {
+    font-family: "Sora Regular";
+    src: url("font-2/Sora-Regular.ttf");
+}
+
+body{
+    margin:0;
+}
+
+/*Screen 1 - Menu*/
+.btn-contact{
+    font-family: "Source Sans Pro Semi Bold";
+    font-size: 14px;
+    width:162px;
+    height:36px;
+    vertical-align:middle;
+    line-height: 36px;
+    text-align: center;
+    background-color: #694DF9;
+    color:#FFFFFF;
+    padding:5px;
+    border-radius: 8px;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:120px;
+    margin-right:120px;
+}
+.intro{
+    background-color: transparent;
+    min-height: 100vh;
+}
+
+.submenu{
+    display:flex;
+    align-items: center;
+}
+.submenu li{
+    font-family: "Source Sans Pro Semi Bold";
+    font-size: 14px;
+    list-style: none;
+    margin-right:30px;
+    cursor: pointer;
+}
+
+/*Screen 1 - Visuel*/
+
+.visuel-intro{
+    position:absolute;
+    z-index: -1;
+    top:0;
+    right:0;
+}
+
+/*Screen 1 - Text*/
+.presentation{
+    margin-left:120px;
+    width:50%;
+}
+
+.presentation .enlightened{
+    color:#694DF9;
+}
+.presentation .title{
+    font-family: "Source Sans Pro Black";
+    font-size:63px;
+}
+.presentation .text{
+    font-family: "Sora Regular";
+    font-size:16px;
+    color:#000000;
+    opacity: 70%;
+    line-height: 30px;
+    margin-top:20px;
+}
+
+.btn-simulation{
+    font-family: "Source Sans Pro Semi Bold";
+    font-size: 18px;
+    width:225px;
+    height:36px;
+    vertical-align:middle;
+    line-height: 36px;
+    text-align: center;
+    background-color: #694DF9;
+    color:#FFFFFF;
+    padding:10px;
+    border-radius: 8px;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+
+/*Screen 2 - Intro Text*/
+.simulateur-step{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:relative;
+    background-color: #FAF9FF;
+    min-height: 100vh;
+}
+
+
+.intro-simulateur{
+    width:35%;
+    margin-left:120px;
+    padding-top:50px;
+}
+.cartouche-simulateur{
+    font-family: "Source Sans Pro Regular";
+    font-size:17px;
+    text-transform: uppercase;
+    color:#164C3F;
+}
+
+.title-simulateur{
+    font-family: "Source Sans Pro Black";
+    font-size:40px;
+}
+
+.text-simulateur{
+    font-family: "Source Sans Pro Regular";
+    font-size:16px;
+    color:#64607D;
+    padding-top:10px;
+}
+
+/*Screen 2 - Visuel*/
+
+.simulateur-step img{
+    max-width: 100%;
+    max-height: 100%;
+    position:absolute;
+    top:30px;
+    
+}
+
+/*Screen 2 - Steps*/
+
+.steps{
+    display:flex;
+    align-items: center;
+    margin-left:140px;
+
+}
+
+
+.title-step{
+    font-family: "Source Sans Pro Bold";
+    font-size:16px;
+    width:30%;
+}
+.text-step{
+    font-family: "Source Sans Pro Regular";
+    font-size:16px;
+    color:#64607D;
+    width:30%; 
+    line-height:25px;
+    
+}
+
+.projets .title-step{
+    width:50% !important;
+}
+
+.projets .text-step{
+    width:50% !important;
+}
+
+
+
+.renseignements, .aides, .projets{
+    position:absolute;
+}
+
+.renseignements {
+    bottom:30px;
+    left:200px;
+    
+}
+
+.aides{
+    bottom: 150px;
+    left: 600px;
+}
+
+.projets{
+    bottom:370px;
+    left:950px;
+}
+
+
+/*
+.renseignements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:100px;
+}
+
+.aides{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:100px;
+    padding-bottom:50px;
+    padding-left:50px;
+}
+
+.projets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:500px;
+}
+*/
+
+/*Screen 3*/
+.renovation-energetique{
+    min-height: 100vh;
+    background-color: transparent;
+}
+
+/*Screen 3 Intro*/
+
+.intro-renovation{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:50px;
+}
+.cartouche-renovation{
+    font-family: "Source Sans Pro Regular";
+    font-size:17px;
+    text-transform: uppercase;
+    color:#164C3F;
+}
+
+.title-renovation{
+    font-family: "Source Sans Pro Black";
+    font-size:40px;
+}
+
+.text-renovation{
+    font-family: "Source Sans Pro Regular";
+    font-size:16px;
+    color:#64607D;
+    padding-top:10px;
+    text-align: center;
+}
+
+/*Screen 3 visuels and text*/
+
+.container-infos{
+    display:flex;
+    margin-left:120px; 
+    padding-top:50px;
+}
+
+.lil-title{
+    display:flex;
+    align-items: center;
+}
+
+.lil-title .number{
+    font-family: "Source Sans Pro Bold";
+    font-size:16px;
+    color:#5E47D2;
+    background-color:#F0EBFF;
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.lil-title .title-infos{
+    font-family: "Source Sans Pro Semi Bold";
+    font-size:16px;
+    color:#5E47D2;
+    padding-left:10px;
+}
+
+.text-infos{
+    font-family: "Source Sans Pro Semi Bold";
+    font-size:16px;
+    width:70%;
+    margin:0 !important;
+}
+
+/*Screen 4 HETIC*/
+.hetic{
+    min-height: 100vh;
+    background-color: transparent;
+    position: relative;
+    display:flex;
+}
+.bg-grey{
+    position:absolute;
+    width:100%;
+    height:225px;
+    background-color: #FAF9FF;
+    top:0;
+    z-index: -1;
+}
+
+/*Screen 4 Image*/
+.hetic-photo{
+    margin-top:50px;
+    margin-left:120px;
+    width:50%;
+    height:50%;
+}
+/*Screen 4 Text*/
+.hetic-infos{
+    margin-top:50px;
+    margin-left:100px;
+}
+.cartouche-hetic{
+    font-family: "Source Sans Pro Regular";
+    font-size:17px;
+    text-transform: uppercase;
+    color:#164C3F;
+}
+
+.title-hetic{
+    font-family: "Source Sans Pro Black";
+    font-size:40px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.text-hetic{
+    font-family: "Source Sans Pro Semi Bold";
+    font-size:16px;
+    width:70%;
+    padding-top:10px;
+}
+
+/*Screen 5 Contact*/
+.contact-form{
+    min-height: 100vh;
+    background-color:#E2DCFF;
+}
+
+.container-form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-contact{
+    font-family: "Source Sans Pro Bold";
+    font-size: 24px;
+    color:#220F80;
+    margin-top:50px; 
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    margin-top:25px;
+}
+
+form label{
+    font-family: "Source Sans Pro Regular";
+    color:#220F80;
+    font-size:16px;
+    padding-top:15px;
+    padding-bottom:7px;
+}
+
+input{
+    border:none;
+    border-radius: 6px;
+}
+
+input.name{
+    height:36px;
+    padding:5px;
+}
+
+input.message{
+    height:110px;
+    padding:5px;
+}
+
+.btn-send{
+    font-family: "Source Sans Pro Semi Bold";
+    color:#FFFFFF;
+    background-color: #694DF9;
+    border-radius: 6px;
+    padding:10px 25px;
+    cursor: pointer;
+    margin-top:15px;
+   
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAF9FF;
+    margin-top:-40px;
+}
+
+.credit, .group{
+    font-family: "Source Sans Pro Regular";
+    font-size:14px;
+    text-transform: uppercase;
+    padding:10px 50px;
+    color:#757575;
+    
+}
