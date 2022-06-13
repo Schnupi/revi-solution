@@ -20,14 +20,14 @@
     src: url("font-2/Sora-Regular.ttf");
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin:0;
 }
 /*Scroll smooth*/
-html {
-	scroll-behavior: smooth;
-}
-
 .scroller {
     height:100vh;
     overflow-y: scroll;
@@ -73,6 +73,7 @@ html {
 .intro{
     background-color: transparent;
     min-height: 100vh;
+    position:relative;
 }
 
 .submenu{
