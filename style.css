@@ -645,15 +645,20 @@ footer{
 
 @media (max-width : 500px ){
     .intro-simulateur-mob{
-        padding:20px !important;
+        padding:50px !important;
     }
 
     .intro-renovation{
-        padding:20px;
+        padding:50px;
     }
 
     .presentation .title{
-        padding : 20px;
+        padding : 50px;
+    }
+
+    .title-contact{
+        margin-left:50px;
+        margin-right:50px;
     }
 }
 @media (max-width: 1040px) {
